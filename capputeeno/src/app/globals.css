@@ -1,8 +1,10 @@
 :root {
   --max-width: calc(1120px + 20px + 20px);
+  --bg-primary: #F0F0F5;
   --text-dark: #737380;
   --delete-color: #DE3838;
   --orange-low: #FFA585;
+  --shapes-1: #FFF;
 }
 
 * {
