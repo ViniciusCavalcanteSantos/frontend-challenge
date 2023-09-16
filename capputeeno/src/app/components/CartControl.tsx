@@ -1,3 +1,5 @@
+"use client";
+
 import styled from "styled-components";
 import { useLocalStorage } from "@/hooks/useLocalStorage"
 import { ShoppingBagIcon } from "./icons/ShoppingBagIcon";
@@ -37,7 +39,7 @@ export function CartControl() {
     <Container>
       <ShoppingBagIcon />
 
-      {<CartCount>{value.length}</CartCount>}
+      {!!value.length && <CartCount>{value.length}</CartCount>}
     </Container>
   )
 }

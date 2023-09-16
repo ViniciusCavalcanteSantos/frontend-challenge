@@ -17,6 +17,7 @@ const TagHeader = styled.header`
   padding: 20px;
   max-width: var(--max-width);
   margin: 0 auto;
+  height: 80px;
 
   > div {
     display: flex;
