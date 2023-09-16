@@ -1,4 +1,6 @@
 :root {
+  --max-width: 1120px;
+  --text-dark: #737380;
 }
 
 * {
