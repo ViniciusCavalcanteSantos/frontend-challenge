@@ -3,6 +3,7 @@
 import { styled } from "styled-components";
 import { Saira_Stencil_One } from 'next/font/google'
 import { InputPrimaryWSearchIcon } from "./InputSearch";
+import { CartControl } from "./CartControl";
 
 const sairaStencioOne = Saira_Stencil_One({ 
   weight: ['400'],
@@ -16,6 +17,11 @@ const TagHeader = styled.header`
   padding: 20px;
   max-width: var(--max-width);
   margin: 0 auto;
+
+  > div {
+    display: flex;
+    align-items: center;
+  }
 `;
 
 const Logo = styled.h1`
@@ -32,7 +38,7 @@ export function Header() {
       </Logo>
       <div>
         <InputPrimaryWSearchIcon placeholder="Procurando por algo específico?"/>
-
+        <CartControl />
       </div>
     </TagHeader>
   )

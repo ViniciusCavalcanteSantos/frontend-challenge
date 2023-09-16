@@ -1,6 +1,7 @@
 :root {
   --max-width: 1120px;
   --text-dark: #737380;
+  --delete-color: #DE3838;
 }
 
 * {
