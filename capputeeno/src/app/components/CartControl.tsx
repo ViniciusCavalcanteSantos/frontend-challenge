@@ -32,7 +32,7 @@ const CartCount = styled.span`
 `
 
 export function CartControl() {
-  const [ value ] = useLocalStorage("cart-items");
+  const [ value ] = useLocalStorage("cart-items", []);
   
 
   return(
